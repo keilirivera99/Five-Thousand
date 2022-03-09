@@ -1,6 +1,5 @@
 public class Score {
     private int value;
-    private int playerId;
     private boolean block;
 
     public Score(){
@@ -10,10 +9,6 @@ public class Score {
 
     public int getValue(){
         return this.value;
-    }
-
-    public int getPlayer(){
-        return this.playerId;
     }
 
     public void addToScore(int add){
